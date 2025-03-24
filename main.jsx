@@ -6,10 +6,10 @@ import { CollisionProvider } from "./contents/content.jsx";
 createRoot(document.getElementById("root")).render(
 
   
-  <BrowserRouter>
   <CollisionProvider>
+  <BrowserRouter>
     <App />
-  </CollisionProvider>
   </BrowserRouter>
+  </CollisionProvider>
 
 );
